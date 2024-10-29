@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: rgb(10, 10, 83);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 70vh;
+  /* margin-top: 75px; */
+  /* margin: 150px; */
+  background-color: white;
+  border-radius: 30px;
+}
+
+.contentBox {
+  background-color: white;
+  flex-basis: 40%;
+  height: 70vh;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-basis: 15%;
+  height: 70vh;
+  padding: 20px;
+  border-radius: 30px;
+}
+.image {
+  padding: 30px;
+  
+}
+
+  h1 {
+  /* padding: 20px; */
+  margin-top: 20px;
+  font-size: 38px;
+  
+}
+.join {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.pointOne {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.pointTwo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.pointThree {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.form {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.emailText {
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border-color: 2px rgb(187, 180, 180);
+  border: none;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(223, 228, 245);
+}
+button {
+  width: 300px;
+  height: 40px;
+  border-radius:7px;
+  color: aliceblue;
+  background-color: rgb(10, 10, 83);
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 95px; */
+    margin-right: 70px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 50px;
+  }
+  
+  .contentBox {
+    background-color: white;
+    /* flex-basis: 40%; */
+    width: 285px;
+    height: 91vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* flex-basis: 15%; */
+    max-width: fit-content;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .image {
+    padding: 30px;
+    
+  }
+}
+
+@media (max-width: 468px) {
+  
+  body {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction:column-reverse;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 30px;
+    /* margin: 50px; */
+  }
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* flex-basis: 15%; */
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .image {
+    padding: 30px;
+    width: 350px;
+    
+  }
+  .contentBox {
+    background-color: white;
+    /* flex-basis: 40%; */
+    /* width: 50%; */
+    height: 70vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-color: 2px rgb(187, 180, 180);
+    border: none;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(223, 228, 245);
+  }
+  button {
+    width: 250px;
+    height: 40px;
+    border-radius:7px;
+    color: aliceblue;
+    background-color: rgb(10, 10, 83);
+    border: none;
+  }
+}
+@media (max-width: 357px) {
+  
+  body {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 95px; */
+    /* margin-right: 70px; */
+    background-color: white;
+    border-radius: 30px;
+    /* margin: 50px; */
+  }
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* flex-basis: 15%; */
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .image {
+    padding: 30px;
+    width: 350px;
+    
+  }
+  .contentBox {
+    background-color: white;
+    /* flex-basis: 40%; */
+    /* width: 50%; */
+    height: 70vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-color: 2px rgb(187, 180, 180);
+    border: none;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(223, 228, 245);
+  }
+  button {
+    width: 250px;
+    height: 40px;
+    border-radius:7px;
+    color: aliceblue;
+    background-color: rgb(10, 10, 83);
+    border: none;
+  }
+}
+
+
+
+@media (max-width: 320px) {
+  
+  body {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 95px; */
+    /* margin-right: 70px; */
+    background-color: white;
+    border-radius: 30px;
+    /* margin: 50px; */
+  }
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* flex-basis: 15%; */
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .image {
+    padding: 30px;
+    width: 350px;
+    
+  }
+  .contentBox {
+    background-color: white;
+    /* flex-basis: 40%; */
+    /* width: 50%; */
+    height: 70vh;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-color: 2px rgb(187, 180, 180);
+    border: none;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(223, 228, 245);
+  }
+  button {
+    width: 250px;
+    height: 40px;
+    border-radius:7px;
+    color: aliceblue;
+    background-color: rgb(10, 10, 83);
+    border: none;
+  }
+}
